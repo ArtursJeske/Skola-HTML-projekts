@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="lv">
+    <head>
+        <meta charset="UTF-8">
+        <title>Solar Cargo - Pievienot konteineru</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>Pievienot jaunu konteineru</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Sākums</a></li>
+                <li><a href="konteineri.html">Konteineri</a></li>
+                <li><a href="statistika.html">Statistika</a></li>         
+            </ul>
+        </nav>
+
+        <form action="#" method="post" class="add-container-form">
+
+            <div class="form-group">
+            <label for="container-id">Konteinera ID:</label>
+            <input type="text" id="container-id" name="container-id" placeholder="Piemēram: SC-1234" required>
+            </div>
+    
+            <div class="form-group">
+            <label for="mineral-type">Minerāls:</label>
+            <input type="text" id="mineral-type" name="mineral-type" placeholder="Piemēram: Alumīnijs" required>
+            </div>
+            
+            <div class="form-group">
+            <label for="origin-base">Izcelšanās bāze:</label>
+            <input type="text" id="origin-base" name="origin-base" placeholder="Piemēram: Rīga" required>
+            </div>
+
+            <div class="form-group">
+            <label for="destination-base">Galamērķa bāze:</label>
+            <input type="text" id="destination-base" name="destination-base" placeholder="Piemēram: Rēzekne" required>
+            </div>
+
+            <div class="form-group">
+            <label for="status">Statuss:</label>
+            <select id="status" name="status" required>
+            <option value="cela">Ceļā</option>
+            <option value="noliktava">Noliktavā</option>
+            <option value="piegadats">Piegādāts</option>
+            </select>
+            </div>
+
+            <button type="submit" class="btn-add">Saglabāt</button>
+        </form>
+
+    </body>

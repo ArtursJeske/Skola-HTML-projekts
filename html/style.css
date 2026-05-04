@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: azure;
     color: #101010 ;
+    max-width: 1000px;
     margin: auto;
     padding: 20px;
 
@@ -39,7 +40,6 @@ ul {
     border-radius: 8px;          
     list-style-type: disc;      
     margin-bottom: 20px;
-
 }
 
 li {
@@ -64,6 +64,9 @@ a:hover {
 }
 
 nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
     background-color: #1a3a5c;  
     padding: 12px 20px;
     border-radius: 8px;
@@ -122,20 +125,45 @@ tbody tr:hover {
     border: 20px solid #28a745;
 }
 
-.table-alt th, .table-alt td {
-    padding: 12px 15px;
-    text-align: left;
-    border-bottom: 1px solid #dee2e6;
-    border-right: none;
+.btn-add {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1a3a5c;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.table-alt th {
-    background-color: #28a745;
-    color: #ffffff;
+.btn-add:hover {
+    background-color: #2e6da4;
+    text-decoration: none !important;
+}
+
+.add-container-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group label {
     font-weight: bold;
+    color: #1a3a5c;
 }
-
-.table-alt tbody tr:hover {
-    background-color: #e9ecef;
-}
-
