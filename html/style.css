@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: azure;
+    color: #101010 ;
+    margin: auto;
+    padding: 20px;
+
+}
+
+
+h1 {
+    color: #1a3a5c;       
+    font-size: 36px;       
+    margin-bottom: 10px;   
+    border-bottom: 2px solid #1a3a5c;
+    padding-bottom: 8px;
+}
+
+h2 {
+    color: #2e6da4;       
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    color: #1a3a5c;       
+    font-size: 28px;       
+    margin-bottom: 10px;
+    margin-top: 400px;   
+    border-bottom: 2px solid #1a3a5c;
+    border-top: 2px solid #1a3a5c;
+    padding-bottom: 8px;
+}
+
+
+ul {
+    background-color: #ffffff;   
+    padding: 15px 20px;          
+    border-radius: 8px;          
+    list-style-type: disc;      
+    margin-bottom: 20px;
+
+}
+
+li {
+    padding: 6px 0;              
+    border-bottom: 1px solid #e0e0e0;  
+    color: #333333;
+}
+
+li:last-child {
+    border-bottom: none;        
+}
+
+
+a {
+    color: #2e6da4;              
+    text-decoration: none;       
+}
+
+a:hover {
+    color: #1a3a5c;              
+    text-decoration: underline; 
+}
+
+nav ul {
+    background-color: #1a3a5c;  
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+nav li {
+    border-bottom: 1px solid #2e6da4;
+    padding: 8px 0;
+}
+
+nav a {
+    color: #ffffff;              
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a8d0f0;             
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+
+th {
+    background-color: #1a3a5c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+.table-alt {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 20px 4px rgba(134, 7, 7, 0.1);
+    border: 20px solid #28a745;
+}
+
+.table-alt th, .table-alt td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+    border-right: none;
+}
+
+.table-alt th {
+    background-color: #28a745;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.table-alt tbody tr:hover {
+    background-color: #e9ecef;
+}
+
