@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="lv">
-    <head>
+<head>
     <meta charset="UTF-8">
     <title>Solar Cargo - Konteineri</title>
     <link rel="stylesheet" href="style.css">
@@ -13,71 +13,101 @@
         <ul>
             <li><a href="index.html">Sākums</a></li>
             <li><a href="konteineri.html">Konteineri</a></li>
-            <li><a href="statistika.html">Statistika</a></li>         
+            <li><a href="statistika.html">Statistika</a></li>
         </ul>
     </nav>
 
     <p style="padding-top: 5px; font-size: x-large;">Šajā lapā redzams konteineru saraksts.</p>
 
-    <table>
+    <div class="layout">
 
-        <tr>
-            <th>ID</th>
-            <th>Minerāls</th>
-            <th>Izcelšanās bāze</th>
-            <th>Galamērķa bāze</th>
-            <th>Statuss</th>
-        </ts>
+        <section>
+            <h2>Konteineru saraksts</h2>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Minerāls</th>
+                    <th>Izcelšanās bāze</th>
+                    <th>Galamērķa bāze</th>
+                    <th>Statuss</th>
+                </tr>
+                <tr>
+                    <td>SC-1201</td>
+                    <td>Titāns</td>
+                    <td>Mars Colony A</td>
+                    <td>Earth Base North</td>
+                    <td>Ceļā</td>
+                </tr>
+                <tr>
+                    <td>SC-1840</td>
+                    <td>Helijs-3</td>
+                    <td>Luna Base 12</td>
+                    <td>Orbital Station Gamma</td>
+                    <td>Noliktavā</td>
+                </tr>
+                <tr>
+                    <td>SC-2044</td>
+                    <td>Dzelzs rūda</td>
+                    <td>Asteroid Hub 7</td>
+                    <td>Earth Base West</td>
+                    <td>Piegādāts</td>
+                </tr>
+                <tr>
+                    <td>SC-2500</td>
+                    <td>Ūdens ledus</td>
+                    <td>Europa Station</td>
+                    <td>Mars Colony B</td>
+                    <td>Ceļā</td>
+                </tr>
+                <tr>
+                    <td>SC-3008</td>
+                    <td>Silīcijs</td>
+                    <td>Mercury Outpost</td>
+                    <td>Venus Relay Port</td>
+                    <td>Piegādāts</td>
+                </tr>
+                <tr>
+                    <td>SC-3391</td>
+                    <td>Helijs-3</td>
+                    <td>Luna Base 22</td>
+                    <td>Earth Base Australia-4</td>
+                    <td>Ceļā</td>
+                </tr>
+            </table>
+        </section>
 
-        <tr>
-            <td>SC-1201</td>
-            <td>Titāns</td>
-            <td>Mars Colony A</td>
-            <td>Earth Base North</td>
-            <td>Ceļā</td>
-        </tr>
+        <section>
+            <h2>Pievienot jaunu konteineru</h2>
+            <form action="#" method="post" class="add-container-form">
+                <div class="form-group">
+                    <label for="container-id">Konteinera ID:</label>
+                    <input type="text" id="container-id" name="container-id" placeholder="Piemēram: SC-1234" required>
+                </div>
+                <div class="form-group">
+                    <label for="mineral-type">Minerāls:</label>
+                    <input type="text" id="mineral-type" name="mineral-type" placeholder="Piemēram: Alumīnijs" required>
+                </div>
+                <div class="form-group">
+                    <label for="origin-base">Izcelšanās bāze:</label>
+                    <input type="text" id="origin-base" name="origin-base" placeholder="Piemēram: Rīga" required>
+                </div>
+                <div class="form-group">
+                    <label for="destination-base">Galamērķa bāze:</label>
+                    <input type="text" id="destination-base" name="destination-base" placeholder="Piemēram: Rēzekne" required>
+                </div>
+                <div class="form-group">
+                    <label for="status">Statuss:</label>
+                    <select id="status" name="status" required>
+                        <option value="cela">Ceļā</option>
+                        <option value="noliktava">Noliktavā</option>
+                        <option value="piegadats">Piegādāts</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-add">Saglabāt</button>
+            </form>
+        </section>
 
-        <tr>
-            <td>SC-1840</td>
-            <td>Helijs-3</td>
-            <td>Luna Base 12</td>
-            <td>Orbital Station Gamma
-            <td>Noliktavā</td>
-        </tr>
+    </div>
 
-        <tr>
-            <td>SC-2044</td>
-            <td>Dzelzs rūda</td>
-            <td>Asteroid Hub 7</td>
-            <td>Earth Base West</td>
-            <td>Piegādāts</th>
-        </tr>
-
-        <tr>
-            <td>SC-2500
-            <td>Ūdens ledus</td>
-            <td>Europa Station</td>
-            <td>Mars Colony B</td>
-            <td>Ceļā</td>
-        </tr>
-
-        <tr>
-            <td>SC-3008</td>
-            <td>Silīcijs</td>
-            <td>Mercury Outpost</td>
-            <td>Venus Relay Port</td>
-            <td>Piegādāts</td>
-        
-        <tr>
-            <td>SC-3391</td>
-            <td>Helijs-3</td>
-            <td>Luna Base 22</td>
-            <td>Earth Base Australia-4</td>
-            <td>Ceļā</td>
-
-    </table>
-
-     <a href="add-container.html" class="btn-add">+ Pievienot konteineru</a></li>
-        
 </body>
 </html>
