@@ -1,4 +1,4 @@
-/* ===== PAMATA LAPA ===== */
+/* ===== Pamata lapa ===== */
 body {
     font-family: Arial, sans-serif;
     background-color: azure;
@@ -8,7 +8,13 @@ body {
     padding: 20px;
 }
 
-/* ===== VIRSRAKSTI ===== */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* ===== Virsraksti ===== */
 h1 {
     color: #1a3a5c;
     font-size: 36px;
@@ -23,7 +29,7 @@ h2 {
     margin-bottom: 8px;
 }
 
-/* ===== SARAKSTI ===== */
+/* ===== Saraksti ===== */
 ul {
     background-color: #ffffff;
     padding: 15px 20px;
@@ -42,7 +48,7 @@ li:last-child {
     border-bottom: none;   /* pēdējai rindai nav apakšlīnijas */
 }
 
-/* ===== SAITES ===== */
+/* ===== Saite ===== */
 a {
     color: #2e6da4;
     text-decoration: none;
@@ -53,7 +59,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ===== NAVIGĀCIJA ===== */
+/* ===== Navigācija ===== */
 nav ul {
     list-style: none;
     display: flex;
@@ -76,7 +82,7 @@ nav a:hover {
     color: #a8d0f0;
 }
 
-/* ===== TABULA ===== */
+/* ===== Tabula ===== */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -104,7 +110,7 @@ tbody tr:hover {
     background-color: #f5f5f5;
 }
 
-/* ===== POGA - PIEVIENOT KONTEINERU ===== */
+/* ===== Poga - Pievienot konteineru ===== */
 .btn-add {
     display: inline-block;
     padding: 10px 20px;
@@ -121,7 +127,7 @@ tbody tr:hover {
     text-decoration: none !important;
 }
 
-/* ===== FORMA - PIEVIENOT KONTEINERU ===== */
+/* ===== Forma - pievienot konteineru ===== */
 .add-container-form {
     display: flex;
     flex-direction: column;
@@ -148,3 +154,10 @@ tbody tr:hover {
     font-weight: bold;
     color: #1a3a5c;
 }
+
+/* ===== Footer ===== */
+footer {
+    text-align: right;
+    padding: 0 20px;
+    color: rgb(211, 23, 23);
+}   
