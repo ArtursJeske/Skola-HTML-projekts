@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: azure;
     color: #101010;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;        /* centrē lapu */
     padding: 20px;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     padding: 0 20px;
 }
@@ -88,13 +88,9 @@ nav a:hover {
 
 /* ===== Tabula ===== */
 table {
-    min-width: 500px;
+    width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
 }
 
 .layout {
@@ -109,10 +105,9 @@ table {
 }
 
 th, td {
-    padding: 12px 15px;
+    border: 1px solid #260d69;
+    padding: 15px 1px;
     text-align: left;
-    border-bottom: 1px solid #e0e0e0;
-    border-right: 1px solid #e0e0e0;
 }
 
 th {
@@ -146,7 +141,7 @@ tbody tr:hover {
 .add-container-form {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 20px;
     max-width: 400px;
     margin-top: 20px;
 }
